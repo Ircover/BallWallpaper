@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:buttonStyle">@style/CommonButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CommonCheckBoxStyle</item>
+        <item name="android:radioButtonStyle">@style/CommonRadioButtonStyle</item>
+        <item name="android:seekBarStyle">@style/CommonSeekBarStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:buttonStyle">@style/CommonButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CommonCheckBoxStyle</item>
+        <item name="android:radioButtonStyle">@style/CommonRadioButtonStyle</item>
+        <item name="android:seekBarStyle">@style/CommonSeekBarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+    </style>
+
+    <style name="DialogWindowTitle" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:background">@color/DialogTitleBackground</item>
+        <item name="android:textColor">@color/DialogTitleTextColor</item>
+        <item name="android:textSize">@dimen/textview_text_size</item>
+    </style>
+
+    <style name="CommonButtonStyle" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/common_button_background</item>
+        <item name="android:textColor">@color/CommonButtonTextColor</item>
+        <item name="android:textSize">@dimen/common_button_text_size</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="GreatButtonStyle" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/great_button_background</item>
+        <item name="android:textColor">@color/GreatButtonTextColor</item>
+        <item name="android:textSize">@dimen/great_button_text_size</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CommonCheckBoxStyle" parent="android:Widget.Holo.Light.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/common_checkbox_background</item>
+        <item name="android:textColor">@color/CommonCheckBoxTextColor</item>
+        <item name="android:textSize">@dimen/common_checkbox_text_size</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="CommonRadioButtonStyle" parent="android:Widget.Holo.Light.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/common_radiobutton_background</item>
+        <item name="android:textColor">@color/CommonRadioButtonTextColor</item>
+        <item name="android:textSize">@dimen/common_radio_button_text_size</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="CommonSeekBarStyle" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/common_seekbar_progress</item>
+        <item name="android:thumb">@drawable/common_seekbar_thumb</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">@dimen/textview_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

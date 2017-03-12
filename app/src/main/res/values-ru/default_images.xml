@@ -1,0 +1,9 @@
+<resources>
+    <string name="default_image_banner">Фонарики</string>
+    <string name="default_image_caramel">Конфеты</string>
+    <string name="default_image_moon">Луна</string>
+    <string name="default_image_puzzle">Пазлы</string>
+    <string name="default_image_ring_nebula">Космос</string>
+    <string name="default_image_soap_bubble">Лёд</string>
+    <string name="default_image_theater">Театр</string>
+</resources>

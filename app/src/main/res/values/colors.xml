@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Grey">#cccccc</color>
+
+    <color name="TransparentBackground">#33000000</color>
+
+    <color name="BallColorFixed">@color/White</color>
+
+    <color name="DialogTitleBackground">@color/White</color>
+    <color name="DialogTitleTextColor">#74ce40</color>
+
+    <color name="CommonButtonTextColor">@color/Black</color>
+    <color name="CommonButtonBackground">#d1d9d0</color>
+    <color name="CommonButtonClickBackground">#74ce40</color>
+
+    <color name="GreatButtonTextColor">#37631e</color>
+    <color name="GreatButtonBackground">#d1d9d0</color>
+    <color name="GreatButtonClickBackground">#74ce40</color>
+
+    <color name="CommonCheckBoxTextColor">@color/Black</color>
+    <color name="CommonRadioButtonTextColor">@color/Black</color>
+
+    <!--<color name="CommonSeekBarProgressBackColor">#1100FF21</color>-->
+    <color name="CommonSeekBarProgressBackColor">#1174ce40</color>
+    <color name="CommonSeekBarProgressCenterColor">#6674ce40</color>
+    <color name="CommonSeekBarProgressStartColor">#1174ce40</color>
+    <color name="CommonSeekBarProgressEndColor">#FF74ce40</color>
+</resources>

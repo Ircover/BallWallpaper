@@ -1,0 +1,9 @@
+<resources>
+    <string name="default_image_banner">Flashlights</string>
+    <string name="default_image_caramel">Caramel</string>
+    <string name="default_image_moon">Moon</string>
+    <string name="default_image_puzzle">Puzzles</string>
+    <string name="default_image_ring_nebula">Universe</string>
+    <string name="default_image_soap_bubble">Ice bubble</string>
+    <string name="default_image_theater">Theater</string>
+</resources>

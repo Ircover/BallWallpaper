@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\libs\GoogleAdMobAdsSdk-6.4.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6262c554ef5744538d526465aa73704810705734">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.4.1_3fb575928f42d04795ab746ee57220c8ea768f37.jar" />
+    </item>
+    <item
+        jar="D:\progs\eclipse\Android SDK\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_62be1f1c8ff0854e12993b86f803dec077cdbc57.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.0_8bbcafe25069500fcede6a891de04ffdfe577c9d.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_59b59a6931eb634eb7a119fe6eedc8385479fd03.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.0_ff0e6d0a112b65d48d1947ff4a1a7e04991830d1.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.0_4731570b07b83e785a856076cbb12a7ff2216426.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a723c85825d9591baec200523c10662e30c8bed7">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.6.0_8329bad21286830d1911032fdf8caf2045e0e53e.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d16df2955bbd154b36819386cfd2e3b7f7cae5b">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.6.0_f4356c0442ad27b802529de6dc550d2ed1d71e8e.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_f1b194ef11b220e78870296fedec9e0c92e838a1.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.0_d0b6340794143ca9389a52ae1144d883d7986170.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="eb96a230c7b55d545fbdee45157a5a75b2b26284">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.6.0_819e14a51248c52157fe72ab215bcd865f4e2386.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.0_946eee17a56796b874c5b808629a0b10d350472c.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.6.0_5e71107b1993dcdb57feb4519b6ed6b893e45104.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.0_fe5f8cd058d2196da71bc60c5eba0364a6a19b5b.jar" />
+    </item>
+    <item
+        jar="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="D:\progs\Android_workspace\BallWallpaper\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.0_6daf784d713caf87ceeb3f99b962fb6205a80b3b.jar" />
+    </item>
+
+</items>

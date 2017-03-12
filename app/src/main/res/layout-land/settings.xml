@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/wallpaperSetterButton"
+        style="@style/GreatButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/wallpaper_set_2_lines"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/adView"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/admob_settings"
+        android:layout_alignParentBottom="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adView"
+        android:layout_toRightOf="@id/wallpaperSetterButton">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/backgroundLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_view"
+                android:orientation="vertical"
+                android:columnCount="3"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/preference_text_balls_bakcground"
+                    android:layout_margin="10dp"/>
+
+                <LinearLayout
+                    android:id="@+id/backgroundButtonsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleText">
+
+                    <Button
+                        android:id="@+id/fileSelectButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/button_select_file"
+                        android:layout_margin="5dp"/>
+
+                    <Button
+                        android:id="@+id/resourceSelectButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/button_select_resource"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@id/backgroundButtonsLayout"
+                    android:background="@drawable/border_view">
+
+                    <Button
+                        android:id="@+id/fileClearButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/clear"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/filePathText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/textview_small_text_size"
+                        android:text="@string/background_not_selected"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fileClearButton"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/previewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_below="@id/backgroundLayout">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/ballSizePrefText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textview_small_text_size"
+                        android:text="@string/preference_ball_size"
+                        android:layout_margin="5dp"/>
+
+                    <SeekBar
+                        android:id="@+id/ballSizePrefBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"/>
+
+                    <TextView
+                        android:id="@+id/ballSpeedPrefText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textview_small_text_size"
+                        android:text="@string/preference_ball_speed"
+                        android:layout_margin="5dp"/>
+
+                    <SeekBar
+                        android:id="@+id/ballSpeedPrefBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp" />
+
+                    <CheckBox
+                        android:id="@+id/popBallBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_ball_pop_on_click"
+                        android:layout_margin="5dp" />
+
+                    <CheckBox
+                        android:id="@+id/explodeBallBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_ball_explode_on_pop"
+                        android:layout_margin="5dp" />
+
+                    <CheckBox
+                        android:id="@+id/rotateBallBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_ball_rotate"
+                        android:layout_margin="5dp" />
+
+                    <CheckBox
+                        android:id="@+id/showBallTrailBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_ball_show_trail"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+
+                <main.BallsPreviewSurface
+                    android:id="@+id/ballsPreview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/colorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_view"
+                android:layout_margin="5dp"
+                android:layout_below="@id/previewLayout">
+
+                <TextView
+                    android:id="@+id/ballsColorText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/preference_text_balls_color"
+                    android:layout_margin="5dp"/>
+
+                <RadioGroup
+                    android:id="@+id/ballsColorGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ballsColorText">
+
+                    <RadioButton
+                        android:id="@+id/ballsColorRandom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_balls_color_random"/>
+
+                    <RadioButton
+                        android:id="@+id/ballsColorFixed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/preference_balls_color_default" />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/donationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/donation"
+                android:layout_margin="10dp"
+                android:layout_below="@id/colorLayout"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

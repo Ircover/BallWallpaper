@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "366275292534",
+    "firebase_url": "https://ballwallpaper-b96b9.firebaseio.com",
+    "project_id": "ballwallpaper-b96b9",
+    "storage_bucket": "ballwallpaper-b96b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366275292534:android:7de131b105ef3845",
+        "android_client_info": {
+          "package_name": "ircover.ballwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366275292534-cqh53acsc7cmm3oaa43seke385kfuha4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7SIj-5Vi4tua-YYAkloJ2LFO4ZmoQl8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

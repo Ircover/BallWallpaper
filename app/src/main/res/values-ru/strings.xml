@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Бешеные шары</string>
+
+    <string name="button_finish">Закрыть</string>
+    <string name="donate">Пожертвовать</string>
+    <string name="donation">Помощь разработчикам</string>
+    <string name="in_process_google_setup">Идёт настройка Google сервиса. Пожалуйста, подождите</string>
+    <string name="in_process_google">Выполняется другая операция. Пожалуйста, повторите позже</string>
+    <string name="preference_ball_size">Размер шарика</string>
+    <string name="preference_ball_speed">Скорость шарика</string>
+    <string name="preference_balls_color_random">Случайный выбор</string>
+    <string name="preference_balls_color_default">Стандартный цвет</string>
+    <string name="preference_show_ads_banner">Показывать баннер с рекламой</string>
+    <string name="preference_text_balls_color">Цвета шариков</string>
+    <string name="thanks_for_help">Спасибо за помощь</string>
+    <string name="wallpaper_description">Фон с шариками</string>
+    <string name="wallpaper_set">Установить обои</string>
+    <string name="preference_ball_pop_on_click">Лопнуть шар при клике</string>
+    <string name="preference_text_balls_bakcground">Фон шариков</string>
+    <string name="button_select_file">Выбрать файл</string>
+    <string name="background_not_selected">Фон не выбран</string>
+    <string name="error_file_not_image">Выбранный файл не является картинкой</string>
+    <string name="preference_ball_rotate">Вращать шар</string>
+    <string name="button_select_resource">Выбрать картинку</string>
+    <string name="preference_ball_explode_on_pop">Взрывать лопающийся шарик</string>
+    <string name="mark_dialog_button_mark">Оценить сейчас</string>
+    <string name="mark_dialog_button_mark_later">Позже</string>
+    <string name="mark_dialog_button_mark_never">Никогда</string>
+    <string name="mark_dialog_message">Пожалуйста, помогите сделать приложение великолепным - оцените его на Google Play.</string>
+    <string name="mark_dialog_title">Оцените приложение</string>
+    <string name="wallpaper_set_2_lines">Установить\nобои</string>
+    <string name="preference_ball_show_trail">Рисовать след шарика</string>
+    <string name="loading">Загрузка</string>
+
+</resources>
