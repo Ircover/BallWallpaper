@@ -467,10 +467,10 @@ class BallsContainer {
 
 	private void KillBall(Ball b) {
 		if(explodeOnPop) {
+			double maxDistance = 300;
 			for(Ball ball : balls) {
 				Point vector = ball.pos.Difference(b.pos);
-				double distance = vector.Length(),
-						maxDistance = 300;
+				double distance = vector.Length();
 				if(distance < maxDistance) {
 					float power = (float) (maxDistance / distance);
 					ball.vel.Add(vector.Normalize().Multiply(power * 200));

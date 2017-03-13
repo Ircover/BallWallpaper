@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">Balls of Frenzy</string>
-    <string name="version_name" translatable="false">v1.1.3</string>
+    <string name="version_name" translatable="false">v1.1.4</string>
 
     <string name="admob_app_id" translatable="false">ca-app-pub-5224340966987491~2160481963</string>
     <string name="admob_settings" translatable="false">ca-app-pub-5224340966987491/3637215161</string>
