@@ -21,7 +21,7 @@
     <string name="preference_text_balls_bakcground">Фон шариков</string>
     <string name="button_select_file">Выбрать файл</string>
     <string name="background_not_selected">Фон не выбран</string>
-    <string name="error_file_not_image">Выбранный файл не является картинкой</string>
+    <string name="error_file_not_image">Ошибка получения картинки из выбранного файла</string>
     <string name="preference_ball_rotate">Вращать шар</string>
     <string name="button_select_resource">Выбрать картинку</string>
     <string name="preference_ball_explode_on_pop">Взрывать лопающийся шарик</string>

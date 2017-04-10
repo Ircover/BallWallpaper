@@ -3,13 +3,18 @@ package main;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Handler;
+import android.os.ParcelFileDescriptor;
 import android.view.Display;
 import android.view.WindowManager;
 
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
+
+import java.io.FileNotFoundException;
 
 import ircover.ballwallpaper.R;
 
@@ -126,5 +131,23 @@ class BasicFunctions {
         }
 
         return inSampleSize;
+    }
+
+    static boolean isUriImage(Context context, Uri uri) {
+        if(uri == null) {
+            return false;
+        }
+        try {
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            ParcelFileDescriptor fd = context.getContentResolver().openFileDescriptor(uri, "r");
+            if(fd != null) {
+                BitmapFactory.decodeFileDescriptor(fd.getFileDescriptor(), null, options);
+                return options.outWidth > 0;
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 }

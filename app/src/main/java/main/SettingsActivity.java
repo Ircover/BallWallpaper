@@ -446,8 +446,9 @@ public class SettingsActivity extends Activity implements IabHelper.OnIabSetupFi
 				break;
 			case REQUEST_CODE_SELECT_FILE:
 				if(data != null) {
-					String type = getContentResolver().getType(data.getData());
-					if(type != null && type.startsWith("image/")) {
+					//String type = getContentResolver().getType(data.getData());
+					//if(type != null && type.startsWith("image/")) {
+					if(BasicFunctions.isUriImage(this, data.getData())) {
 						PreferenceWorker.setBackground(this, new BackgroundWorker.ImageSource(data.getData()));
 						UpdateBackground();
 					} else {

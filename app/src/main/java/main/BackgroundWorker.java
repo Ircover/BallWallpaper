@@ -102,12 +102,19 @@ class BackgroundWorker {
                                 }
 
                                 int dx = 0, dy = 0;
-                                float ratio = size.x / bitmap.getWidth();
+                                /*float ratio = size.x / bitmap.getWidth();
                                 if(((float)bitmap.getHeight()) * ratio > size.y) {
                                     dy = (int) (((float)bitmap.getHeight()) * ratio - size.y);
                                 } else {
                                     ratio /= ((float)bitmap.getHeight()) * ratio / size.y;
                                     dx = (int) (((float)bitmap.getWidth()) * ratio - size.x);
+                                }*/
+                                float ratioResult = ((float)bitmap.getHeight()) / bitmap.getWidth(),
+                                        ratioSize = size.y / size.x;
+                                if(ratioResult > ratioSize) {
+                                    dy = (int) ((float)bitmap.getHeight() - ((float)bitmap.getWidth()) * ratioSize);
+                                } else {
+                                    dx = (int) ((float)bitmap.getWidth() - ((float)bitmap.getHeight()) / ratioSize);
                                 }
 
                                 bitmap = Bitmap.createBitmap(bitmap, dx / 2, dy / 2,

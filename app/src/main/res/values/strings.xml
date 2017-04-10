@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">Balls of Frenzy</string>
-    <string name="version_name" translatable="false">v1.1.4</string>
+    <string name="version_name" translatable="false">v1.1.5</string>
 
     <string name="admob_app_id" translatable="false">ca-app-pub-5224340966987491~2160481963</string>
     <string name="admob_settings" translatable="false">ca-app-pub-5224340966987491/3637215161</string>
@@ -13,7 +13,7 @@
     <string name="button_select_resource">Select image</string>
     <string name="donate">Donate</string>
     <string name="donation">Help for developers</string>
-    <string name="error_file_not_image">Selected file is not image</string>
+    <string name="error_file_not_image">Can\'t get image from selected file</string>
     <string name="background_not_selected">Background wasn\'t select</string>
     <string name="in_process_google_setup">Google setup in progress. Please wait</string>
     <string name="in_process_google">There is another operation in progress. Please try again later</string>
