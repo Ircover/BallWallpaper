@@ -8,10 +8,16 @@ import android.service.wallpaper.WallpaperService;
 import android.view.SurfaceHolder;
 
 public class MyWallpaperService extends WallpaperService {
-	
+
+	private MyEngine engine;
+
 	@Override
 	public Engine onCreateEngine() {
-		return new MyEngine();
+		if(engine != null) {
+			engine.visible = false;
+		}
+		engine = new MyEngine();
+		return engine;
 	}
 	
 	private class MyEngine extends Engine {
@@ -33,12 +39,6 @@ public class MyWallpaperService extends WallpaperService {
 		MyEngine() {
 			balls = new BallsContainer(getApplicationContext());
 			handler = new Handler();
-			/*manager = (SensorManager) getSystemService(SENSOR_SERVICE);
-			Sensor sensorAcc = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
-					sensorMagn = manager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
-			orientationListener = new OrientationSensorListener();
-			manager.registerListener(orientationListener, sensorAcc, 20);
-			manager.registerListener(orientationListener, sensorMagn, 20);*/
 		}
 
 		@Override

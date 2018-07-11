@@ -167,7 +167,12 @@ class BallsContainer {
 					hitScaleX = 1f;
 					hitScaleY = 1f;
 				} else {
-					float result = Hit_Scales[scalePosition];
+					float result;
+					if(scalePosition >= 0 && scalePosition < Hit_Scales.length) {
+						result = Hit_Scales[scalePosition];
+					} else {
+						result = 1f;
+					}
 					switch(hitDirection) {
 						case DIRECTION_VERTICAL:
 							hitScaleX = result;
